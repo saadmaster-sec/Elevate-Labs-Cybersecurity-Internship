@@ -9,10 +9,10 @@ Discover open ports on devices within a local network to understand overall netw
 - **Kali Linux** (VirtualBox, bridged network adapter)
 
 ## Methodology
-1. Identified local IP range using `ip a` → `192.168.X.0/24`
+1. Identified local IP range using `ip a` → `192.168.29.146/24`
 2. Ran a TCP SYN scan:
    ```
-   sudo nmap -sS 192.168.X.0/24
+   sudo nmap -sS 192.168.29.146/24
    ```
 3. Recorded live hosts, open ports, and the services running on them
 4. Cross-referenced each open port against its default/common service
