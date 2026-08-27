@@ -50,7 +50,7 @@ Went beyond the base task requirement by capturing and analyzing the scan traffi
 **Observations:**
 Filtering on `tcp.flags.syn==1 && tcp.flags.ack==1` returned 20 packets out of 6,959 captured (0.3%), confirming 8 unique open ports — 53, 80, 443, 1900, 7443, 8080, 8443 on .1, and 445 on .254 — an exact match to Nmap's results. The repeated SYN-ACKs seen for .254:445 (5 occurrences across different ephemeral source ports) are retransmissions from Nmap re-probing the same port, not additional open ports. In every case, no final ACK follows the SYN-ACK — confirming the "half-open" nature of a SYN scan, since Kali never completes the three-way handshake.
 
-*(Capture file: [`wireshark-capture.pcapng`](./wireshark-capture.pcapng), screenshot in `screenshots/`)*
+*(Capture file: [`wireshark-capture.pcapng`](./wireshark-capture.pcapng))*
 
 ## Screenshots
 See [`screenshots/`](./screenshots) for terminal output of the Nmap scan and the Wireshark capture.
