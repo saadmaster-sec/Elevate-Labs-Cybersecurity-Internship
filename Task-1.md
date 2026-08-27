@@ -1,14 +1,14 @@
 # Task 01: Scan Your Local Network for Open Ports
 
-## 🎯 Objective
+## Objective
 Discover open ports on devices within a local network to understand overall network exposure and identify potential security risks.
 
-## 🛠 Tools Used
+## Tools Used
 - **Nmap** — network scanning
 - **Wireshark** *(optional)* — packet capture analysis
 - **Kali Linux** (VirtualBox, bridged network adapter)
 
-## 📋 Methodology
+## Methodology
 1. Identified local IP range using `ip a` → `192.168.X.0/24`
 2. Ran a TCP SYN scan:
    ```
@@ -19,7 +19,7 @@ Discover open ports on devices within a local network to understand overall netw
 5. Saved output to `scan-results.txt`
 6. *(Optional)* Captured traffic during the scan in Wireshark to observe the SYN scan behavior at the packet level
 
-## 📊 Results
+## Results
 
 | Host IP | Open Port(s) | Service | Notes |
 |---------|-------------|---------|-------|
@@ -29,12 +29,12 @@ Discover open ports on devices within a local network to understand overall netw
 
 *(Full raw output in [`scan-results.txt`](./scan-results.txt))*
 
-## ⚠️ Key Findings / Risk Assessment
+## Key Findings / Risk Assessment
 - **Router (.1) exposes 7 open ports**, including UPnP (1900) — UPnP allows LAN devices to request port forwards without authentication, which is a common home-router hardening target. Worth disabling if not actively needed.
 - **SMB open on .254 (port 445)** is the highest-risk finding — SMB is a classic lateral-movement/ransomware vector (e.g., EternalBlue). Worth confirming the SMB version and whether file sharing is actually required on that host.
 - **.21 (D-Link device) returned zero open ports** — a useful contrast showing not every device on the LAN is equally exposed.
 
-## 🦈 Wireshark Packet Analysis
+## Wireshark Packet Analysis
 Went beyond the base task requirement by capturing and analyzing the scan traffic in Wireshark.
 
 **Setup:**
@@ -52,5 +52,5 @@ Filtering on `tcp.flags.syn==1 && tcp.flags.ack==1` returned 20 packets out of 6
 
 *(Capture file: [`wireshark-capture.pcapng`](./wireshark-capture.pcapng), screenshot in `screenshots/`)*
 
-## 🖼 Screenshots
+## Screenshots
 See [`screenshots/`](./screenshots) for terminal output of the Nmap scan and the Wireshark capture.
