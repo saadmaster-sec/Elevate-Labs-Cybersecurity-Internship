@@ -57,4 +57,9 @@ Screenshots for terminal output of the Nmap scan and the Wireshark capture.
 
 ### ip address
 ![ip](/Day-1/ip-a.png)
-![Payload Creation](Lab1_screenshots/payload_creation.png)
+
+### nmap scan
+![namp](/Day-1/nmap-scan.png)
+
+### wireshark capture
+![wireshark](Day-1/wireshark.png)
