@@ -30,9 +30,9 @@ Discover open ports on devices within a local network to understand overall netw
 *(Full raw output in [`scan-results.txt`](./scan-results.txt))*
 
 ## Key Findings / Risk Assessment
-- **Router (.1) exposes 7 open ports**, including UPnP (1900) — UPnP allows LAN devices to request port forwards without authentication, which is a common home-router hardening target. Worth disabling if not actively needed.
-- **SMB open on .254 (port 445)** is the highest-risk finding — SMB is a classic lateral-movement/ransomware vector (e.g., EternalBlue). Worth confirming the SMB version and whether file sharing is actually required on that host.
-- **.21 (D-Link device) returned zero open ports** — a useful contrast showing not every device on the LAN is equally exposed.
+- **Router (.1) exposes 7 open ports**, including UPnP (1900), UPnP allows LAN devices to request port forwards without authentication, which is a common home-router hardening target. Worth disabling if not actively needed.
+- **SMB open on .254 (port 445)** is the highest-risk finding, SMB is a classic lateral-movement/ransomware vector (e.g., EternalBlue). Worth confirming the SMB version and whether file sharing is actually required on that host.
+- **.21 (D-Link device) returned zero open ports**, a useful contrast showing not every device on the LAN is equally exposed.
 
 ## Wireshark Packet Analysis
 Went beyond the base task requirement by capturing and analyzing the scan traffic in Wireshark.
