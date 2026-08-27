@@ -53,4 +53,8 @@ Filtering on `tcp.flags.syn==1 && tcp.flags.ack==1` returned 20 packets out of 6
 *(Capture file: [`wireshark-capture.pcapng`](./wireshark-capture.pcapng))*
 
 ## Screenshots
-See [`screenshots/`](./screenshots) for terminal output of the Nmap scan and the Wireshark capture.
+Screenshots for terminal output of the Nmap scan and the Wireshark capture.
+
+### ip address
+![ip](/Day-1/ip-a.png)
+![Payload Creation](Lab1_screenshots/payload_creation.png)
