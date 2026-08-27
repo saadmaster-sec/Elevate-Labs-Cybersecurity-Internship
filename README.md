@@ -1,4 +1,4 @@
-# Elevate Labs Cyber Security Internship — Cohort #17
+# Elevate Labs Cyber Security Internship 
 
 Daily task submissions for the Elevate Labs Cyber Security Internship. Each folder below contains the objective, methodology, results, and findings for that day's task.
 
