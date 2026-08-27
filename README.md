@@ -3,7 +3,7 @@
 Daily task submissions for the Elevate Labs Cyber Security Internship. Each folder below contains the objective, methodology, results, and findings for that day's task.
 
 ## 👤 Intern
-**Saad** — BSc Computer Science (University of Windsor), CompTIA Security+
+**Saad** — BSc Computer Science (University of Windsor)
 
 ## 📂 Structure
 
@@ -29,4 +29,4 @@ elevate-labs-cybersecurity-internship/
 
 | # | Task | Tools | Status |
 |---|------|-------|--------|
-| 01 | [Scan Local Network for Open Ports](./task-01-port-scanning) | Nmap, Wireshark | ✅ Complete |
+| 01 | [Scan Local Network for Open Ports](./Day-1/Task-1.md) | Nmap, Wireshark | ✅ Complete |
