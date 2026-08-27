@@ -62,4 +62,4 @@ Screenshots for terminal output of the Nmap scan and the Wireshark capture.
 ![namp](/Day-1/nmap-scan.png)
 
 ### wireshark capture
-![wireshark](Day-1/wireshark-capture.png)
+![wireshark](/Day-1/wireshark-capture.png)
