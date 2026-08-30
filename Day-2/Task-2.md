@@ -20,7 +20,11 @@ Full breakdown in [`header-analysis-report.md`](/Day-2/Header-analysis.md), incl
 
 
 ## Screenshots
-![[phish1](/Day-2/phish1.png)
+### icloud suspended email
+
+![phish1](/Day-2/phish1.png)
+
+### Payment Update for icloud email
 
 ![phish2](/Day-2/phish2.png)
 
