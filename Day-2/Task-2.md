@@ -3,7 +3,7 @@
 ## Objective
 Identify phishing characteristics in a suspicious email sample and produce a report listing the indicators found.
 
-## 🛠 Tools Used
+## Tools Used
 - Manual analysis (sender address, links, language, formatting)
 - Real-world pattern recognition from prior Apple customer support experience
 
