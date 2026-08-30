@@ -2,9 +2,12 @@
 
 ## Samples Used
 Two real phishing emails, both variants of the same "iCloud storage" scam pattern
-encountered repeatedly while working in Apple customer support. Screenshots are in
+encountered repeatedly while working in Apple customer support. 
+
 ![phish1](/Day-2/phish1.png)
-a text transcription is in
+
+A text transcription is in
+
 ![phish2](/Day-2/phish2.png)
 
 ## Phishing Indicators Found
