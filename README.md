@@ -13,11 +13,12 @@ Each task lives in its own folder:
 elevate-labs-cybersecurity-internship/
 ├── README.md                          ← you are here
 ├── task-01-port-scanning/
-│   ├── README.md
+│   ├── Task-1.md
 │   ├── scan-results.txt
 │   └── screenshots/
 ├── task-02-.../
-│   ├── README.md
+│   ├── Task-2.md
+|   ├── Header-analysis.md
 │   └── screenshots/
 ...
 └── task-08-.../
