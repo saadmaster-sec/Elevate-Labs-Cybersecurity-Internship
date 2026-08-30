@@ -15,13 +15,14 @@ Identify phishing characteristics in a suspicious email sample and produce a rep
 5. Documented findings as a structured indicators report
 
 ## Results
-Full breakdown in [`header-analysis-report.md`](./header-analysis-report.md), including a subtle character-substitution obfuscation technique ("!Cloud !D" instead of "iCloud ID") used to slip past spam filters.
+Full breakdown in [`header-analysis-report.md`](/Day-2/Header-analysis.md), including a subtle character-substitution obfuscation technique ("!Cloud !D" instead of "iCloud ID") used to slip past spam filters.
 
-*(Samples: [`sample-phishing-email.txt`](./sample-phishing-email.txt) — screenshots in [`screenshots/`](./screenshots))*
+
 
 ## Screenshots
-- `phishing-sample-1-icloud-suspended.webp`
-- `phishing-sample-2-payment-update.webp`
+![[phish1](/Day-2/phish1.png)
+
+![phish2](/Day-2/phish2.png)
 
 ## Related Experience
 Beyond identifying phishing as a target, I've also built and documented phishing campaigns from the attacker side using **GoPhish** and **Zphisher** as lab work in my broader security portfolio: [Cybersecurity-journey](https://github.com/saadmaster-sec/Cybersecurity-journey)
