@@ -3,7 +3,7 @@
 Daily task submissions for the Elevate Labs Cyber Security Internship. Each folder below contains the objective, methodology, results, and findings for that day's task.
 
 ## 👤 Intern
-**Saad** — BSc Computer Science (University of Windsor)
+**Mohamed Saad Master** — BSc Computer Science (University of Windsor)
 
 ## 📂 Structure
 
