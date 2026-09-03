@@ -32,3 +32,4 @@ elevate-labs-cybersecurity-internship/
 |---|------|-------|--------|
 | 01 | [Scan Local Network for Open Ports](./Day-1/Task-1.md) | Nmap, Wireshark | ✅ Complete |
 | 02 | [Phishing Awareness](./Day-2/Task-2.md) | Manual Analysis, Real World pattern | ✅ Complete |
+| 03 | [Nessus Scan](./Day-3/Task-3.md) | Nessus, Self IP Scan | ✅ Complete |
