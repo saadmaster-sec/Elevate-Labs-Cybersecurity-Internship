@@ -27,5 +27,5 @@ Total capture: 21,271 packets (TCP: 19,465 · UDP: 1,712 · ICMP: 25).
 - [`network-capture.pcapng`](./network-capture.pcapng) — full raw capture
 - [`protocol-analysis-report.md`](./protocol-analysis-report.md) — protocol-by-protocol findings
 
-## 🖼 Screenshots
+## Screenshots
 See [`screenshots`](./screenshots) for the traffic-generation source, and each filtered protocol view (DNS, TLS, HTTP/OCSP, ICMP).
