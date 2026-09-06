@@ -34,3 +34,4 @@ elevate-labs-cybersecurity-internship/
 | 02 | [Phishing Awareness](./Day-2/Task-2.md) | Manual Analysis, Real World pattern | ✅ Complete |
 | 03 | [Nessus Scan](./Day-3/Task-3.md) | Nessus, Self IP Scan | ✅ Complete |
 | 04 | [Firewall Rules Configuration](./Day-4/Task-4.md) | Windows Defender Firewall | ✅ Complete |
+| 05 | [Wireshark Capture](./Day-5/Task-5.md) | Wireshark | ✅ Complete |
