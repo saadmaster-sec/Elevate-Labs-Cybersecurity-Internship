@@ -72,4 +72,4 @@ if broader policy changed later — explicit rules take precedence over defaults
   rule (Allow-SSH-22), extracted and annotated
 - [`firewall-rules-full-dump.txt`](./firewall-rules-full-dump.txt) — full raw
   `netsh advfirewall firewall show rule name=all` output, for verification
-- [`screenshots/`](./Day-4/screenshots) — full walkthrough from rule creation to cleanup
+- [`screenshots/`](./screenshots) — full walkthrough from rule creation to cleanup
