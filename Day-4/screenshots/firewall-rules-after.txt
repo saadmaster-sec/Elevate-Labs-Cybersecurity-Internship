@@ -1,0 +1,36 @@
+NOTE: The full `netsh advfirewall firewall show rule name=all` output dumps
+every rule on the system (600+, including built-in Windows/app rules) — far
+too much to be a useful deliverable. Below is the relevant custom rule added
+for this task, extracted from that full output. The full raw file is also
+included as firewall-rules-full-dump.txt for reference/verification.
+
+============================================================
+CUSTOM RULE ADDED FOR TASK 4
+============================================================
+
+Rule Name:                            Allow-SSH-22
+----------------------------------------------------------------------
+Enabled:                              Yes
+Direction:                            In
+Profiles:                             Domain,Private,Public
+Grouping:                             
+LocalIP:                              Any
+RemoteIP:                             Any
+Protocol:                             TCP
+LocalPort:                            22
+RemotePort:                           Any
+Edge traversal:                       No
+Action:                               Allow
+
+============================================================
+NOTE ON THE TEST RULE (Block-Telnet-23)
+============================================================
+A temporary rule "Block-Telnet-23" (TCP, port 23, Block, all profiles) was
+created to demonstrate blocking behavior, verified with Test-NetConnection
+(TcpTestSucceeded: False), then deleted via:
+
+    netsh advfirewall firewall delete rule name="Block-Telnet-23"
+
+It is confirmed absent from the current rule set (not present in the full
+dump), reflecting the intended final state: SSH explicitly allowed, no
+leftover test rules.
