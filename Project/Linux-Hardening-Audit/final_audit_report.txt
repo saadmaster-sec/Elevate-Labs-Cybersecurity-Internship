@@ -1,0 +1,119 @@
+======================================
+       LINUX SECURITY AUDIT TOOL
+======================================
+
+[1] SYSTEM INFORMATION
+--------------------------------------
+ Static hostname: kali
+       Icon name: computer-vm
+         Chassis: vm 💽
+      Machine ID: a411853166504a1bbf6b56adb30ef88b
+         Boot ID: 0f1cb3bbed444bb5bc3be0a0c763146a
+    Product UUID: 90ea8f90-7686-644d-9b91-dc93c679211f
+  Virtualization: oracle
+Operating System: Kali GNU/Linux Rolling
+          Kernel: Linux 7.0.12+kali-amd64
+    Architecture: x86-64
+ Hardware Vendor: innotek GmbH
+  Hardware Model: VirtualBox
+ Hardware Serial: VirtualBox-908fea90-8676-4d64-9b91-dc93c679211f
+Hardware Version: 1.2
+Firmware Version: VirtualBox
+   Firmware Date: Fri 2006-12-01
+    Firmware Age: 19y 9month 2w 5d
+
+[2] CURRENT USER
+--------------------------------------
+root
+uid=0(root) gid=0(root) groups=0(root)
+
+[3] LISTENING PORTS
+--------------------------------------
+Netid State Recv-Q Send-Q Local Address:Port Peer Address:Port
+
+[4] RUNNING SERVICES
+--------------------------------------
+  UNIT                           LOAD   ACTIVE SUB     DESCRIPTION
+  accounts-daemon.service        loaded active running Accounts Service
+  colord.service                 loaded active running Manage, Install and Generate Color Profiles
+  cron.service                   loaded active running Regular background program processing daemon
+  dbus.service                   loaded active running D-Bus System Message Bus
+  getty@tty1.service             loaded active running Getty on tty1
+  haveged.service                loaded active running Entropy Daemon based on the HAVEGE algorithm
+  lightdm.service                loaded active running Light Display Manager
+  ModemManager.service           loaded active running Modem Manager
+  NetworkManager.service         loaded active running Network Manager
+  polkit.service                 loaded active running Authorization Manager
+  rtkit-daemon.service           loaded active running RealtimeKit Scheduling Policy Service
+  systemd-hostnamed.service      loaded active running Hostname Service
+  systemd-journald.service       loaded active running Journal Service
+  systemd-logind.service         loaded active running User Login Management
+  systemd-udevd.service          loaded active running Rule-based Manager for Device Events and Files
+  systemd-userdbd.service        loaded active running User Database Manager
+  udisks2.service                loaded active running Disk Manager
+  upower.service                 loaded active running Daemon for power management
+  user@1000.service              loaded active running User Manager for UID 1000
+  virtualbox-guest-utils.service loaded active running Virtualbox guest utils
+
+Legend: LOAD   → Reflects whether the unit definition was properly loaded.
+        ACTIVE → The high-level unit activation state, i.e. generalization of SUB.
+        SUB    → The low-level unit activation state, values depend on unit type.
+
+20 loaded units listed.
+
+[5] FIREWALL CHECK
+--------------------------------------
+[WARNING] INPUT firewall policy is: ACCEPT
+[WARNING] FORWARD firewall policy is: ACCEPT
+
+[6] IMPORTANT FILE PERMISSIONS
+--------------------------------------
+[PASS] /etc/passwd permissions: 644
+[PASS] /etc/shadow permissions: 640
+
+[7] USERS WITH UID 0
+--------------------------------------
+[PASS] Only root has UID 0
+
+[8] SSH CONFIGURATION
+--------------------------------------
+[INFO] PermitRootLogin is not explicitly configured
+[INFO] PasswordAuthentication is not explicitly configured
+
+[9] SYSTEM UPDATE CHECK
+--------------------------------------
+[WARNING] 836 package update(s) available
+
+[10] PASSWORD POLICY CHECK
+--------------------------------------
+[INFO] Password maximum age: 99999 days
+[INFO] Password minimum age: 0 days
+[WARNING] Password maximum age is greater than 90 days
+
+[11] RISKY SERVICES CHECK
+--------------------------------------
+[PASS] No common risky legacy services detected
+
+[12] BASIC ROOTKIT INDICATOR CHECK
+--------------------------------------
+[INFO] SUID binaries detected: 28
+[INFO] chkrootkit is not installed
+[INFO] Current check is limited to basic indicators
+
+[13] HARDENING RECOMMENDATIONS
+--------------------------------------
+[RECOMMEND] Review INPUT firewall rules and consider a restrictive default policy.
+[RECOMMEND] Review FORWARD firewall rules and disable forwarding if not required.
+[RECOMMEND] Install pending security and package updates.
+[RECOMMEND] Reduce PASS_MAX_DAYS in /etc/login.defs to 90 days or less.
+[RECOMMEND] Periodically review SUID binaries for unexpected changes.
+[RECOMMEND] Consider using a dedicated rootkit detection tool for deeper scans.
+
+[14] SECURITY SCORE
+--------------------------------------
+Security Score: 60/100
+Overall Status: NEEDS IMPROVEMENT
+
+======================================
+           AUDIT COMPLETE
+======================================
