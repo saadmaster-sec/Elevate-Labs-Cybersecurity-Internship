@@ -199,6 +199,14 @@ To save the results to a file:
 sudo ./audit.sh | tee final_audit_report.txt
 ```
 
+## Project Files
+
+- `audit.sh` - Main Linux hardening audit script
+- `audit_v2.sh` - Intermediate version with scoring and automated checks
+- `audit_final.sh` - Final version with hardening recommendations
+- `final_audit_report.txt` - Output generated from the final audit
+- `screenshots/` - Screenshots showing the project development and results
+
 ## Project Development
 
 The project was developed incrementally.
