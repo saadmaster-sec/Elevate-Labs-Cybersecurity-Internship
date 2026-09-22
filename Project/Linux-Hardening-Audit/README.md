@@ -251,13 +251,23 @@ Screenshots showing the development stages and audit results are available in th
 
 Suggested screenshots include:
 
-```text
-01-v1-script.png
-02-v1-output.png
-03-v2-score.png
-04-v3-security-checks.png
-05-final-recommendations.png
-```
+## Screenshots
+
+### Version 1 - Initial Audit Output
+
+![Version 1 Output](Linux-Hardening-Audit/screenshots/v1-output.png)
+
+### Version 2 - PASS/WARNING Logic and Security Score
+
+![Version 2 Score](Linux-Hardening-Audit/screenshots/v2-score.png)
+
+### Version 3 - Expanded Security Checks
+
+![Version 3 Checks](Linux-Hardening-Audit/screenshots/v3-checks.png)
+
+### Final Version - Hardening Recommendations
+
+![Final Recommendations](Linux-Hardening-Audit/screenshots/final-recommendations.png)
 
 ## Limitations
 
