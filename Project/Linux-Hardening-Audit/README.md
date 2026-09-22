@@ -255,19 +255,19 @@ Suggested screenshots include:
 
 ### Version 1 - Initial Audit Output
 
-![Version 1 Output](Linux-Hardening-Audit/screenshots/v1-output.png)
+![Version 1 Output](screenshots/v1-output.png)
 
 ### Version 2 - PASS/WARNING Logic and Security Score
 
-![Version 2 Score](Linux-Hardening-Audit/screenshots/v2-score.png)
+![Version 2 Score](screenshots/v2-score.png)
 
 ### Version 3 - Expanded Security Checks
 
-![Version 3 Checks](Linux-Hardening-Audit/screenshots/v3-checks.png)
+![Version 3 Checks](screenshots/v3-checks.png)
 
 ### Final Version - Hardening Recommendations
 
-![Final Recommendations](Linux-Hardening-Audit/screenshots/final-recommendations.png)
+![Final Recommendations](screenshots/final-recommendations.png)
 
 ## Limitations
 
