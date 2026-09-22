@@ -259,8 +259,6 @@ Screenshots showing the development stages and audit results are available in th
 
 Suggested screenshots include:
 
-## Screenshots
-
 ### Version 1 - Initial Audit Output
 
 ![Version 1 Output](screenshots/v1-output.png)
