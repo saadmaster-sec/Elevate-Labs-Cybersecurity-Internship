@@ -284,31 +284,38 @@ Cowrie-Honeypot/
 
 ## Screenshots
 
-Recommended screenshots to include:
+Project screenshots are available in the `screenshots/` directory and document the main stages of the honeypot project.
 
-### Cowrie Running
+### Cowrie Setup and Startup
 
-Shows Cowrie initialized, started, and running successfully.
+Shows the dedicated Cowrie user, Python virtual environment, Cowrie installation, initialization, and successful startup.
 
 ### SSH Test Activity
 
-Shows SSH test connections to the honeypot on port `2222`.
+Shows controlled SSH connections to the honeypot on port `2222` using localhost.
 
 ### Captured Cowrie Logs
 
-Shows Cowrie recording login activity and sessions.
+Shows Cowrie recording login attempts, session activity, and commands.
 
-### Emulated Shell
+### Emulated Shell Activity
 
-Shows commands being executed inside the fake Linux environment.
+Shows commands being executed inside Cowrie's fake Linux environment.
 
 ### JSON Logging
 
-Shows structured Cowrie JSON events.
+Shows structured events stored in `cowrie.json`.
 
-### Python Analyzer
+### Python Log Analysis
 
-Shows summarized honeypot activity generated from the log analyzer.
+Shows the custom Python analyzer summarizing:
+
+- Total connections
+- Successful and failed logins
+- Source IP addresses
+- Usernames attempted
+- Passwords attempted
+- Commands observed
 
 ## Security and Lab Scope
 
